@@ -1,0 +1,13 @@
+Steps:
+
+1. cd desktop/
+2. mkdir A01003601gitlab 
+3. cd A01003601gitlab/
+4. git init
+
+(COPY HTML AND CSS INTO DIRECTORY)
+
+5. git add --a
+6. git commit -m "initial commit"
+7. git remote add origin https://github.com/edgarcoime/A01003601gitlab
+8. git push -u origin master
