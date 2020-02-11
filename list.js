@@ -2,7 +2,7 @@
 function styleList(){
 document.getElementById("movieList").style.listStyleType = "none";
 var x = document.getElementsByTagName("STYLE")[0];
-x.innerHTML = "li {  border: 1px solid #ddd; margin-top: -1px; background-color: #f6f6f6; padding: 12px;    text-decoration: none;    font-size: 18px;    color: black;    display: block;  } table {    border-collapse: collapse;    width: 100%;  }   th, td {    text-align: left;    padding: 8px;  }  tr:nth-child(even){background-color: #f2f2f2}  th {    background-color: #4CAF50;    color: white;}";
+x.innerHTML = "li {  border: 1px solid #ddd; margin-top: -1px; background-color: skyblue; padding: 12px;    text-decoration: none;    font-size: 18px;    color: black;    display: block;  } table {    border-collapse: collapse;    width: 100%;  }   th, td {    text-align: left;    padding: 8px;  }  tr:nth-child(even){background-color: #f2f2f2}  th {    background-color: #5b8c85;    color: white;}";
 }
 
 // filter through movies
@@ -28,7 +28,6 @@ for (i = 0; i < close.length; i++) {
         div.style.display = "none";
     }
 }
-
 
 var list = [];
 var checkList = [];
@@ -115,31 +114,8 @@ function newElement() {
     console.log(checkList);
 }
 
-
-
-
-
 // Clear Movies button removes all child elements of UL
 function clearUL() {
     var ul = document.getElementById("movieList");
     while(ul.firstChild) ul.removeChild(ul.firstChild);
 }
-
-
-//Create history of the list
-// function history() {
-//     let inputValue = "hi";
-//     var x = document.createElement("TABLE");
-//     x.setAttribute("id", "myTable");
-//     document.getElementById("historyList").appendChild(x);
-  
-//     var y = document.createElement("TR");
-//     y.setAttribute("id", "myTr");
-//     document.getElementById("myTable").appendChild(y);
-  
-//     var z = document.createElement("TD");
-//     var t = document.createTextNode(inputValue);
-//     z.appendChild(t);
-//     document.getElementById("myTr").appendChild(z);
-
-// }
