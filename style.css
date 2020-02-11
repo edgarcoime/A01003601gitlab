@@ -1,4 +1,12 @@
 body {
-    background-color: grey;
+    background-color: #434e52;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: black;
+}
+
+.card-body {
+    background-color: lemonchiffon;
 }

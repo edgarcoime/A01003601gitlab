@@ -2,7 +2,7 @@
 function styleList(){
 document.getElementById("movieList").style.listStyleType = "none";
 var x = document.getElementsByTagName("STYLE")[0];
-x.innerHTML = "li {  border: 1px solid #ddd; margin-top: -1px; background-color: skyblue; padding: 12px;    text-decoration: none;    font-size: 18px;    color: black;    display: block;  } table {    border-collapse: collapse;    width: 100%;  }   th, td {    text-align: left;    padding: 8px;  }  tr:nth-child(even){background-color: #f2f2f2}  th {    background-color: #5b8c85;    color: white;}";
+x.innerHTML = "li {  border: 1px solid #ddd; margin-top: -1px; background-color: #ecce6d; padding: 12px;    text-decoration: none;    font-size: 18px;    color: black;    display: block;  } table {    border-collapse: collapse;    width: 100%;  }   th, td {    text-align: left;    padding: 8px;  }  tr:nth-child(even){background-color: #b0a160}  th {    background-color: #434e52;    color: white;}";
 }
 
 // filter through movies
