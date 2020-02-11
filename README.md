@@ -1,10 +1,4 @@
-# H1 What is the .md extension?
-(https://www.google.com "Google's Homepage")
-
-```python
-s = "Python syntax highlighting"
-print s
-```
+# What is the .md extension?
 
 An MD file is a text file created using many dialects of the Markdown language. 
 It is very flexible because it includes inline text symbols that define
